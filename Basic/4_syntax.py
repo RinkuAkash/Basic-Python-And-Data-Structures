@@ -11,4 +11,4 @@ Write a Python program to print the documents (syntax, description etc.) of Pyth
 function=input()
 
 #document of function
-help(function)
+print(function.__doc__)
