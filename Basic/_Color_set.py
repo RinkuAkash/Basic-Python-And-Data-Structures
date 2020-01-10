@@ -14,12 +14,7 @@ Expected Output :
 color_list_1 = set(["White", "Black", "Red"]) 
 color_list_2 = set(["Red", "Green"])
 
-result=set()
-
-#adding colors to result set 
-for i in color_list_1:
-    if i not in color_list_2:
-        result.add(i)
+result=color_list_1-color_list_2
 
 #printing set
 print(result)
