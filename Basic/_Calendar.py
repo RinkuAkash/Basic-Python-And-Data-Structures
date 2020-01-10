@@ -15,4 +15,3 @@ year=int(input("Enter year(YYYY): "))
 month=int(input("Enter month (MM): "))
 
 print(calendar.month(year,month))
-p
