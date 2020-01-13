@@ -13,6 +13,6 @@ n=int(input("Enter number of items you want to remove : "))
 
 for _ in range(n):
     item=int(input())
-    Set.discard(item)
+    Set.remove(item)
 
 print("Set after removing elements : ",Set)
