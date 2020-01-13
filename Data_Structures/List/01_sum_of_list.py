@@ -7,6 +7,6 @@ problem statement:
 Write a Python program to sum all the items in a list
 '''
 
-Set={1,2,3,4,5,6,7,8,9}
+List=[1,2,3,4,5,6,7,8,9]
 
-print("Sum of list : ",sum(Set))
+print("Sum of list : ",sum(List))
