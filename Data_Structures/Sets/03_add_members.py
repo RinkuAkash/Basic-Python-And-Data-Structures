@@ -4,7 +4,7 @@ Created on 13/01/2020
 '''
 '''
 Problem statement:
-Write a Python program to create a set
+Write a Python program to add member in a set
 '''
 
 Set=set()
