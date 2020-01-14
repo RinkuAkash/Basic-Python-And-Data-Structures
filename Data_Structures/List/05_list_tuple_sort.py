@@ -11,6 +11,14 @@ Write a Python program to get a list, sorted in increasing order by the last ele
 
 List=[(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 
-def last(n):
-    return n[-1]
-print(sorted(List,key=last))
+values=[x[-1] for x in List]
+for i in range(0,len(values)):
+	for j in range(0,len(values)-i-1):
+		if values[j]>values[j+1]:
+			values[j],values[j+1]=values[j+1],values[j]
+sortedList=[]
+for value in values:
+	for Tuple in List:
+		if Tuple[-1]==value:
+			sortedList.append(Tuple)
+print(sortedList)
