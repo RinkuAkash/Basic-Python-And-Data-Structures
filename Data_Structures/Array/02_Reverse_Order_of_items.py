@@ -13,5 +13,6 @@ print("Enter items :")
 for i in range(0,size):
     Array.append(input())
 
+Reverse=[Array[x] for x in range(len(Array)-1,-1,-1)]
 print("Your array    : ",Array)
-print("Reverse order : ",Array[::-1])
+print("Reverse order : ",Reverse)
