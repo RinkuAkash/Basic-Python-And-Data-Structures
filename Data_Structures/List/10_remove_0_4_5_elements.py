@@ -11,6 +11,6 @@ Write a Python program to print a specified list after removing the 0th, 4th and
 
 List= ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 
-List=[x for (i,x) in enumerate(List) if i not in (0,4,5)]
+List=[item for (index,item) in enumerate(List) if index not in (0,4,5)]
 
 print(List)
